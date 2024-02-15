@@ -138,3 +138,52 @@ header .banner .banner-container h1 {
   width: 100%;
   vertical-align: middle;
 }
+
+/* new park hotel section */
+.new-park-hotel-banner {
+  width: 100%;
+  max-width: 1320px;
+  margin: 50px auto;
+  border-radius: 16px;
+}
+.new-park-hotel-banner .new-park-hotel-container {
+  padding: 100px 385px;
+  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+}
+.new-park-hotel-banner .new-park-hotel-container h3 {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 0px;
+}
+
+.new-park-hotel-banner .new-park-hotel-container .btn-primary {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 8px;
+  background: rgb(255, 0, 0);
+  padding: 16px 32px 16px 32px;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.new-park-hotel-banner .new-park-hotel-container .red{
+    color: #FF0000;
+}
