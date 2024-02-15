@@ -301,15 +301,63 @@ header .banner .banner-container h1 {
   text-align: center;
   margin-bottom: 64px;
 }
-.holiday-img-container{
-  display: flex; 
-  background-image: url('../images/Rectangle\ 1.png') , url('../images/Rectangle\ 2.png');
+.holiday-img-container {
+  display: flex;
+  background-image: url("../images/Rectangle\ 1.png"),
+    url("../images/Rectangle\ 2.png");
   background-repeat: no-repeat;
   background-position: top right, bottom;
 }
-.holiday-img-container img{
+.holiday-img-container img {
   width: 100%;
   vertical-align: bottom;
 }
 
 /* portfolio section styles */
+.portfolio-banner {
+  width: 100%;
+  max-width: 1320px;
+  margin: 120px auto;
+  border-radius: 16px;
+}
+.portfolio-banner .portfolio-container h4 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 16px;
+}
+.portfolio-banner .portfolio-container h2 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+.portfolio-banner .portfolio-container p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 48px;
+  width: 70%;
+}
+.portfolio-img-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.portfolio-img-container img{
+  width: 100%;
+}
+
