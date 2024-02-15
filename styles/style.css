@@ -15,7 +15,7 @@ header .banner {
   max-width: 1320px;
   margin: 50px auto;
   border-radius: 16px;
-  background-image:url("../images/Banner\ Image.png") ;
+  background-image: url("../images/Banner\ Image.png");
 }
 header .banner .banner-container {
   padding: 177px 344px;
@@ -40,4 +40,101 @@ header .banner .banner-container h1 {
   line-height: 95px;
   letter-spacing: 0%;
   text-align: center;
+}
+
+/* categories section styles */
+
+.categories-container {
+  width: 100%;
+  max-width: 803px;
+  margin: 120px auto;
+}
+.categories-container h1 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 107px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.categories-container h4 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.categories-container h2 {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.categories-container img {
+  width: 100%;
+}
+
+/* midnight party section styles */
+.midnight-party {
+  width: 100%;
+  max-width: 1320px;
+  margin: 50px auto;
+  border-radius: 16px;
+  background-image: url("../images/Vectorrr.png");
+}
+.midnight-party .midnight-party-container {
+  display: flex;
+  padding: 68px 120px;
+  align-items: center;
+  gap: 40px;
+  border-radius: 16px;
+  background: linear-gradient(90deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%);
+}
+.midnight-party .midnight-party-container .midnight-party-text {
+  max-width: 697px;
+}
+.midnight-party .midnight-party-container .midnight-party-text h1 {
+  color: rgb(255, 255, 255);
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 11%;
+  text-align: left;
+  width: 642px;
+  margin-bottom: 24px;
+}
+.midnight-party .midnight-party-container .midnight-party-text p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 48px;
+}
+.midnight-party .midnight-party-container .midnight-party-text h4 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+  margin-left: 24px;
+}
+.midnight-party .midnight-party-container .midnight-party-img img {
+  width: 100%;
+  vertical-align: middle;
 }
