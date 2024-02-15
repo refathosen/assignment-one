@@ -352,12 +352,87 @@ header .banner .banner-container h1 {
   margin-bottom: 48px;
   width: 70%;
 }
-.portfolio-img-container{
+.portfolio-img-container {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
 }
-.portfolio-img-container img{
+.portfolio-img-container img {
   width: 100%;
 }
 
+/* subscribe section styles */
+.subscribe-banner {
+  width: 100%;
+  max-width: 1320px;
+  margin: 120px auto;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+}
+.subscribe-banner .subscribe-container {
+  padding: 80px 212px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.subscribe-banner .subscribe-container img {
+  margin-bottom: 46px;
+}
+.subscribe-banner .subscribe-container h2 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+.subscribe-banner .subscribe-container p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.subscribe-banner .subscribe-container input[type="email"] {
+  border-radius: 50px 0px 0px 50px;
+  background: rgb(255, 255, 255);
+  color: rgba(7, 2, 17, 0.3);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 20px 20px;
+  width: 45%;
+  border: 0;
+}
+.subscribe-banner .subscribe-container input[type="submit"] {
+  border-radius: 0px 50px 50px 0px;
+  background: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 20px 15px;
+  width: 15%;
+  border: 0;
+}
+.subscribe-inputs{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+/* footer section styles */
