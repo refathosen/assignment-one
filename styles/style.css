@@ -123,22 +123,24 @@ header .banner .banner-container h1 {
   text-align: left;
   margin-bottom: 48px;
 }
-.midnight-party .midnight-party-container .midnight-party-text h4 {
+.midnight-party .midnight-party-container .midnight-party-img img {
+  width: 100%;
+  vertical-align: middle;
+}
+.btn-one{
   color: rgb(255, 255, 255);
   font-family: Inter;
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0%;
-  text-align: left;
+  text-align: center;
   text-transform: uppercase;
-  margin-left: 24px;
+  border: 0;
+  border-radius: 8px;
+  background: rgba(49, 13, 9, 0.689);
+  padding: 16px 32px 16px 32px;
 }
-.midnight-party .midnight-party-container .midnight-party-img img {
-  width: 100%;
-  vertical-align: middle;
-}
-
 /* new park hotel section */
 .new-park-hotel-banner {
   width: 100%;
